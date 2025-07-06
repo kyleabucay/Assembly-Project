@@ -16,9 +16,8 @@ export default function App() {
 
     // CHECKS THE RANDOM WORD AND GUESSED LETTER
     useEffect(() => {
-        console.log("Guessed Letters:", guessedLetter);
         console.log("Random Word:", randomWord);
-    }, [guessedLetter, randomWord]);
+    }, [randomWord]);
 
     // ADDING GUESSED LETTERS & ALPHABET INITIALIZATION
     const addGuessedLetter = letter => {
