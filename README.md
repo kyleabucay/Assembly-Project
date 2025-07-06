@@ -2,7 +2,7 @@
 
 This project is a creative twist on the classic "Hangman" game. Instead of guessing random words, each incorrect guess crosses out an online game from a list.
 
-# Key Features:
+Key Features:
     Timer – Adds a challenging time limit to the game.
 
     Accessibility – Players can start and play the game entirely using the keyboard (e.g., pressing Enter or typing answers).
