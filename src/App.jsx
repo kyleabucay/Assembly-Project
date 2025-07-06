@@ -14,11 +14,6 @@ export default function App() {
     const [farewellText, setFarewellText] = useState("")
     const [hasGameStarted, setHasGameStarted] = useState(false)
 
-    // CHECKS THE RANDOM WORD AND GUESSED LETTER
-    useEffect(() => {
-        console.log("Random Word:", randomWord);
-    }, [randomWord]);
-
     // ADDING GUESSED LETTERS & ALPHABET INITIALIZATION
     const addGuessedLetter = letter => {
         if (guessedLetter.includes(letter)) return
