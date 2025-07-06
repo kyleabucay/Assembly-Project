@@ -184,7 +184,13 @@ export default function App() {
 
     return (
         <>
-        {isGameWon && <Confetti />}
+        {isGameWon && 
+            <Confetti
+                numberOfPieces={60}
+                recycle={false}
+                gravity={0.3}
+                friction={0.99}
+            />}
         <main ref={mainRef} tabIndex="0" aria-label="Hangman game main page">
             <header>
                 <h1>Hangman: Endgame</h1>
